@@ -1,5 +1,5 @@
 .homepage > a {
-    display: block;
+  display: block;
 }
 /* BEGIN-SNIPPET sprites-snippet.css */
 
@@ -35,8 +35,8 @@
 }
 
 .scenario-sprites .each-item > button {
-  color:white;
-  transition: background-color .5s;
+  color: white;
+  transition: background-color 0.5s;
 }
 
 .scenario-sprites button:hover {
@@ -97,25 +97,20 @@
 }
 /* END-SNIPPET */
 
-
-
 .scenario-each > .animated-container {
-    overflow: hidden;
-    transform: translateZ(0);
-    border: 1px solid green;
+  overflow: hidden;
+  transform: translateZ(0);
+  border: 1px solid green;
 }
 
 .scenario-container-only > .animated-container {
-    border: 1px solid red;
+  border: 1px solid red;
 }
 
 .scenario-two-lists2 > .animated-container {
   width: 40%;
   float: left;
 }
-
-
-
 
 /* BEGIN-SNIPPET two-lists-snippet.css */
 
@@ -215,80 +210,75 @@
   color: rgb(202, 236, 149);
 }
 
-
 /* END-SNIPPET */
-
 
 /* BEGIN-SNIPPET swapping-lists-snippet.css */
 .scenario-swapping-lists .left {
-    width:40%;
-    float: left;
+  width: 40%;
+  float: left;
 }
 .scenario-swapping-lists .right {
-    width: 40%;
-    float: right;
+  width: 40%;
+  float: right;
 }
 
 .scenario-swapping-lists .left-item {
-    color: red;
+  color: red;
 }
 /* END-SNIPPET */
 
-
 .scenario-bind .animated-container {
-    font-size: 3rem;
-    float: left;
-    margin: 3rem;
+  font-size: 3rem;
+  float: left;
+  margin: 3rem;
 }
 
 .scenario-bind button {
-    float: left;
-    font-size: 3rem;
+  float: left;
+  font-size: 3rem;
 }
 
 .scenario-bind span {
-    border: 1px solid blue;
+  border: 1px solid blue;
 }
 
 .scenario-bind > .animated-container {
-    border: 1px solid red;
-    overflow: hidden;
-    transform: translateZ(0);
+  border: 1px solid red;
+  overflow: hidden;
+  transform: translateZ(0);
 }
-
 
 /* BEGIN-SNIPPET rules-snippet.css */
 .scenario-rules .animated-container {
-    font-size: 3rem;
-    float: left;
-    margin: 3rem;
+  font-size: 3rem;
+  float: left;
+  margin: 3rem;
 }
 
 .scenario-rules button {
-    float: top;
-    font-size: 3rem;
-    border: 2px solid lightskyblue;
-    width: 1em;
-    color: blue;
-    transition: background-color .5s;
-    border-radius: 5px;
+  float: top;
+  font-size: 3rem;
+  border: 2px solid lightskyblue;
+  width: 1em;
+  color: blue;
+  transition: background-color 0.5s;
+  border-radius: 5px;
 }
 
 .scenario-rules button:hover {
-    background-color: lightskyblue;
+  background-color: lightskyblue;
 }
 
 .scenario-rules span {
-    border: 1px solid blue;
+  border: 1px solid blue;
 }
 
 .scenario-rules > .animated-container {
-    border: 1px solid red;
-    overflow: hidden;
-    transform: translateZ(0);
+  border: 1px solid red;
+  overflow: hidden;
+  transform: translateZ(0);
 }
 /* END-SNIPPET */
-
 
 /* BEGIN-SNIPPET hero-snippet.css */
 .hero-list {
@@ -346,107 +336,102 @@
 /* END-SNIPPET */
 
 .scenario-direct-style--item {
-    position: absolute;
-    text-align: center;
-    padding: 4px;
+  position: absolute;
+  text-align: center;
+  padding: 4px;
 }
 
 .scenario-direct-style--frame {
-    border: 1px solid blue;
-    color: transparent;
+  border: 1px solid blue;
+  color: transparent;
 }
 
 .inline-text-scenario .inline {
-    display: inline-block;
+  display: inline-block;
 }
 
 .animated-text {
-    display: inline-block;
-    vertical-align: top;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .scenario-orphan {
-    width: 10em;
-    margin-left: 5em;
+  width: 10em;
+  margin-left: 5em;
 }
 
 .scenario-orphan h1 {
-    background-color: #bbebbb;
-    padding: 0 0.5em;
-    margin: 0.5em;
-    transform: translateX(20px);
+  background-color: #bbebbb;
+  padding: 0 0.5em;
+  margin: 0.5em;
+  transform: translateX(20px);
 }
 
-
 .scenario-here-there > div {
-    display: flex;
+  display: flex;
 }
 
 .scenario-here-there > div > div {
-    width: 50%;
+  width: 50%;
 }
 
 .scenario-here-there .demo-item {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
 }
 
 .scenario-beacon-modal {
-    position: absolute;
-    left: 30%;
-    top: 40%;
-    width: 20em;
-    min-height: 10em;
-    background-color: #c4c4ff;
-    box-sizing: border-box;
-    padding: 2em;
-    border-radius: 5px;
+  position: absolute;
+  left: 30%;
+  top: 40%;
+  width: 20em;
+  min-height: 10em;
+  background-color: #c4c4ff;
+  box-sizing: border-box;
+  padding: 2em;
+  border-radius: 5px;
 }
 
 .scenario-beacon-trash {
-    vertical-align: baseline;
-    float: right;
-    width: 120px;
-    height: 120px;
-    width: 10em;
-    background-color: lightblue;
-    box-sizing: border-box;
-    padding: 2em;
-    border-radius: 10px;
+  vertical-align: baseline;
+  float: right;
+  width: 120px;
+  height: 120px;
+  width: 10em;
+  background-color: lightblue;
+  box-sizing: border-box;
+  padding: 2em;
+  border-radius: 10px;
 }
-
 
 /* BEGIN-SNIPPET transitions-snippet.css */
-.scenario-transitions  {
-    display: flex;
-    margin-block-start: 2em;
-    height: 7em;
+.scenario-transitions {
+  display: flex;
+  margin-block-start: 2em;
+  height: 7em;
 }
-
 
 .scenario-transitions .message {
-    width: 7em;
-    background-color: lightblue;
-    color: white;
-    font: italic bold 16px/2 cursive;
-    box-sizing: border-box;
-    padding: 2em;
-    border-radius: 10px;
+  width: 7em;
+  background-color: lightblue;
+  color: white;
+  font: italic bold 16px/2 cursive;
+  box-sizing: border-box;
+  padding: 2em;
+  border-radius: 10px;
 }
 
-
 .scenario-transitions .selector {
-    width: 25%;
+  width: 25%;
 }
 
 .scenario-transitions .h1 {
-    font: sans-serif;
-    font-style: bold;
-    background-color: blue;
+  font: sans-serif;
+  font-style: bold;
+  background-color: blue;
 }
 /* END-SNIPPET */
-
 
 /* BEGIN-SNIPPET move-over-snippet.css */
 .move-over {
@@ -476,12 +461,10 @@
 }
 /* END-SNIPPET */
 
-
 .moving-word {
   display: inline-block;
   vertical-align: top;
 }
-
 
 h1.text {
   letter-spacing: 1rem;
@@ -504,12 +487,11 @@ h1.text {
   color: white;
 }
 
-
-
 /* END-SNIPPET */
 
-
-.transition-log-table, .transition-log-table td, .transition-log-table th {
+.transition-log-table,
+.transition-log-table td,
+.transition-log-table th {
   border: 1px solid black;
 }
 
@@ -534,11 +516,23 @@ h1.text {
   color: white;
 }
 
-
 .motion-menu {
   display: flex;
   flex-direction: column;
   padding: 5px;
   border-bottom: 2px solid rgb(30, 167, 212);
   padding-bottom: 10px;
+}
+
+/* Refinements */
+.docs-md p {
+  line-height: 1.5;
+}
+
+.docs-md p > code {
+  background: ghostwhite;
+  padding: 0.05em 0.2em;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 2px;
 }

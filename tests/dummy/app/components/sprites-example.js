@@ -42,7 +42,7 @@ export default Component.extend({
     addItem() {
       let items = this.get('items');
       let index = Math.floor(Math.random() * Math.floor(10));
-      this.set('items', items.slice(0, 0).concat([makeRandomItem(index)]).concat(items.slice(0)));
+      this.set('items', [makeRandomItem(index)].concat(items.slice(0)));
     },
     deleteItems() {
       let items = this.get('items');
@@ -52,7 +52,14 @@ export default Component.extend({
 });
 
 function makeRandomItem(index) {
-  var messages = ["Hi", "Hello", "Invitation", "Thank You", "Congratulations", "Namaste", "Happy Birthday", "Aloha", "Welcome","Urgent"];
-  return { message: messages[index], deleteMessage: false, received: new Date() };
+  var messages = [
+    "Hi", "Hello", "Invitation", "Thank You", "Congratulations",
+    "Namaste", "Happy Birthday", "Aloha", "Welcome", "Urgent"
+  ];
+  return {
+    message: messages[index],
+    deleteMessage: false,
+    received: new Date()
+  };
 }
 //END-SNIPPET
